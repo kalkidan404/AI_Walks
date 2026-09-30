@@ -32,3 +32,10 @@ conditional probabilty: the probability sth happens given that sth has already h
 P(A∣B)...probability of A given B already had happened
 P(A∣B)=P(A∩B)/P(B)
 ​
+correlation:do two numerical datas go together: or move together
+correlation coeficient:(r) which is -1<r<1......scatterplot
+sampling: taking a sample in different ways to study the whole population
+
+When we calculate something from a population, it's called a parameter.
+
+When we calculate it from a sample, it's called a statistic.
