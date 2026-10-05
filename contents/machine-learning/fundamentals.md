@@ -34,3 +34,29 @@ logistic regression uses "loss" instead of least squares
 Being confidently wrong is much worse than being uncertain. and thats where classification loss come in
 KNN: instead of doing the cuzlculation all over again it compares with nearest numbers
 the most common distance comparing methode:euclidean methode...
+decision trees: instead of numbers or neighbors this one focses on sequences of quetsions
+entropy measures how impure or mixed a grp is
+information gain: how much did this information make our split purer
+All data
+↓
+Try possible splits
+↓
+Measure split quality
+↓
+Choose best split
+↓
+Split data
+↓
+Repeat
+↓
+Build branches
+↓
+Stop
+Prediction
+│
+┌────────────────┼─────────────────┐
+│ │ │
+Logistic k-NN Decision Tree
+│ │ │
+Learn boundary Find neighbors Ask questions
+SVM(support vector machine):Choose the boundary that leaves the largest possible margin between the two classes.
