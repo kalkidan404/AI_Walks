@@ -43,3 +43,52 @@ Loss function measures the error.
 Backpropagation calculates gradients.
 Gradient descent uses those gradients to update weights and biases.
 Forward propagation runs again with the updated parameters.
+Gradient descent doesn't always decrease weights. It adjusts them in whichever direction reduces the loss.
+The main difference between optimizers is how they use the training data and gradients to update parameters.
+Batch Gradient Descent:
+
+Processes all 10,000 examples.
+Calculates the loss across the entire dataset.
+Calculates gradients using all examples.
+Updates the weights once.
+
+Then it repeats the process.
+Stochastic Gradient Descent (SGD)
+
+Instead of using all 10,000 examples, SGD uses just one training example per update.
+Mini-batch Gradient Descent
+
+This approach combines the previous two.
+
+Instead of processing:
+
+The entire dataset (Batch GD).
+One example at a time (SGD).
+
+It processes small groups of examples called mini-batches.
+Adam Optimizer
+First moment — Mean of gradients
+
+It tracks the average direction of recent gradients.
+
+This helps smooth out noisy updates.
+
+2. Second moment — Mean of squared gradients
+
+It tracks the magnitude of recent gradients.
+
+This helps adapt the update size for individual parameters
+| Concept | Role |
+| --------------------------- | --------------------------------------- |
+| Neural network architecture | Defines the layers and neurons |
+| Weights and biases | Control neuron calculations |
+| Activation functions | Introduce nonlinearity |
+| Forward propagation | Produces predictions |
+| Loss function | Measures prediction errors |
+| Backpropagation | Calculates gradients |
+| Gradient descent | Updates parameters |
+| Optimizer | Determines how updates are performed |
+| Learning rate | Controls update size |
+| Batch size | Determines examples per update |
+| Iteration | One batch-based training update |
+| Epoch | One complete pass through training data |
